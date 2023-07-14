@@ -1,0 +1,58 @@
+.form{
+    padding:147px;
+    height:410px;
+    width:1050px;
+      background-size: cover;
+  }
+  .login1{
+      
+    /* background-image:url("D:\mini project\Day 2\loginpage\src\bg.jpeg"); */
+      background-position: center;
+          background-size: cover;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: flex-end;
+  
+      
+    }
+  
+  
+  .login-form {
+    text-align: center;
+      max-width: 300px;
+      height:350px;
+      margin: 0 auto;
+      padding: 50px;
+      background-color:rgb(44, 44, 42);
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgb(28, 27, 27);
+    }
+    
+    .login-form div {
+      margin-bottom: 10px;
+    }
+    
+    .login-form input[type='text'],
+    .login-form input[type='email'],
+    .login-form input[type='password'] {
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px ;
+      padding: 5px;
+      font-size: 16px;
+    }
+    
+    .login-form button[type='submit'] {
+      width: 100%;
+      padding: 10px;
+      background-color: rgb(26, 197, 26);
+      color: rgb(237, 241, 238);
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .login-form button[type='submit']:hover {
+      background-color:rgb(7, 6, 6);
+    }

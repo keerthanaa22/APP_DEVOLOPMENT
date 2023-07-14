@@ -1,0 +1,66 @@
+.body1
+{
+    padding: 90px;
+    background-color: black;
+    background-size: cover;
+
+}
+.name1{
+  margin-top:50px;
+  font-style:bold;
+  font-size:medium;
+}
+.name2{
+margin-top:50px;
+font-style:bold;
+}
+.name3
+{
+margin-top:100px;
+font-style:bold;
+}
+
+
+.class1{
+    margin-left:250px;
+    border-radius: 25px; 
+  }
+.form1
+{
+text-align: center;
+max-width: 300px;
+height:435px;
+margin:0 auto;
+padding: 50px;
+background-color:rgb(47, 44, 43);
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(100, 60, 60, 0.2);
+}
+
+.form1 input[type='text'],
+.form1 input[type='email'],
+  .form1 input[type='password'] {
+    width: 100%;
+    margin-top: 2px;
+    padding: 5px;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .form1 button[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(56, 163, 40);
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form1 button[type='submit']:hover {
+    background-color:rgb(0, 0, 0);
+  }
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,139 @@
+.main{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 90px 0 90px 0;
+  background: rgb(37, 33, 33);
+
+}
+.sub-main{
+display: flex;
+justify-content: center;
+height: 550px;
+width: 35%;
+
+padding-top: 30px;
+border-radius: 70px;
+background-color: white;
+}
+.imgs{
+padding-top: 20px;
+justify-content: center;
+display: flex;
+}
+.container-image{
+background-color: rgb(227, 185, 185);
+border-radius: 150px;
+align-items: center;
+display: flex;
+height: 115px;
+width: 115px;
+}
+.profile{
+height: 100px;
+width: 100px;
+border-radius: 130px; 
+}
+.input{
+width: 300px;
+height: 50px;
+border: radius 60px;
+
+
+}
+.mail{
+height: 25px;
+width: 25px;
+position: absolute;
+padding: 14px 0 0 25px;
+}.main {
+text-align: center;
+justify-content: center;
+display: flex; 
+padding-top: 90px;
+padding-bottom: 90px;
+background-color: #131313;
+}
+.sub-main {
+display: flex;
+justify-content: center;
+height: 550px;
+width: 35%;
+
+padding-top: 30px;
+border-radius: 0px; 
+background-color: white;
+}
+.imgs {
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+.container-image {
+background-color: rgb(223, 221, 221); 
+border-radius: 150px;
+align-items: center;
+display: flex;
+justify-content: center;
+height: 115px;
+width: 115px;
+}
+.profile {
+height: 100px;
+width: 100px;
+border-radius: 130px;
+} 
+
+input{
+  width: 300px;
+  height: 50px;
+  border-radius: 60px;
+  
+  border: none;
+  outline: none;
+  background-color: #000000;
+  color: white;
+}
+
+.mail{
+  height: 25px;
+  width: 25px;
+  /* position: absolute; */
+  padding: 14px 0 0 25px;
+}
+
+.name{
+  padding-left: 70px;
+  font-size: 20px;
+}
+.second-input{
+  padding-top: 20px;
+}
+
+button{
+  width: 95px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: #000000d4;
+  color: rgb(255, 253, 253);
+  font-size: 25px;
+  cursor: pointer;
+  border: none;
+}
+.login-button[type='submit']{
+  padding-top: 25px;
+  font-style: oblique;
+
+}
+
+.login-button[type='submit']:hover {
+  background-color:rgb(156, 94, 94);
+}
+
+.link{
+  font-size: 25px;
+  font-weight: 400;
+}
+a{
+   color: rgb(198, 59, 59);
+}
