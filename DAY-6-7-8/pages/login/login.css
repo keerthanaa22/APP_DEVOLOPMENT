@@ -1,0 +1,94 @@
+.login {
+    width: 100%;
+    height: 100vh;
+    background-image: url('two.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logco{
+    color: #5aac7a;
+  }
+  
+  .loginWrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+  }
+  
+  .loginLeft,
+  .loginRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .loginLogo {
+    font-size: 50px;
+    font-weight: 800;
+    color: #5aac7a;
+    margin-bottom: 10px;
+  }
+  
+  .loginDesc {
+    font-size: 24px;
+  }
+
+  
+  
+  .loginBox{
+    margin-left: 500px;
+      height: 300px;
+      width: 550px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  
+  .loginInput{
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid gray;
+      font-size: 18px;
+      padding-left: 20px;
+  }
+  
+  .loginInput:focus{
+      outline: none;
+  }
+  
+  .loginButton{
+      height: 50px;
+      border-radius: 10px;
+      border: none;
+      background-color: #5aac7a;
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+      font-weight: 500;
+      cursor: pointer;
+      width: 100%;
+  }
+  
+  .loginForgot{
+      text-align: center;
+      color: #5aac7a;
+  }
+  
+  .loginRegisterButton{
+      width: 60%;
+      align-self: center;
+      height: 50px;
+      border-radius: 10px;
+      border: none;
+      background-color: #5aac7a;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+      cursor: pointer;
+  }

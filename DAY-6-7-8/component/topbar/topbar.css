@@ -1,0 +1,158 @@
+.topbarContainer {
+    height: 50px;
+    width: 100%;
+    background-color: #5aac7a;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    text-decoration: none;
+  }
+  
+  .topbarLeft {
+    flex: 3;
+  }
+  
+  .logo {
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .topbarCenter {
+    flex: 5;
+  }
+  
+  .searchbar {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px;
+    color: #5aac7a;
+  }
+  
+  .searchInput {
+    border: none;
+    width: 70%;
+  }
+  
+  .searchInput:focus {
+    outline: none;
+  }
+  
+  .topbarRight {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+  }
+  
+  .topbarLink {
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    background-color: #5aac7a;
+    text-decoration: none;
+  }
+  
+  .topbarIcons {
+    display: flex;
+    text-decoration: none;
+  }
+  
+  .topbarIconItem {
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  .topbarIconBadge {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  
+  .topbarImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .topbar-person
+  {
+    color: white;
+    transition: 0.5s;
+    
+  }
+  .topbar-chat
+    {
+      color: white;
+      transition: 0.5s;
+      
+    }
+  
+  .topbar-person:hover{
+    scale:1.2;
+    transition: 0.5s;
+  }
+  .logout-button
+  {
+    background-color: #5aac7a;
+    border: none;
+    color: white;
+    
+  }
+
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 20px; /* Reduce logo font size on smaller screens */
+    }
+  
+    .topbarLeft {
+      flex: 1;
+      text-align: center; /* Align logo to the center on smaller screens */
+    }
+  
+    .topbarCenter {
+      display: none; /* Hide the search bar on even smaller screens */
+    }
+  
+    .topbarIcons {
+      display: none; /* Hide the icons on even smaller screens */
+    }
+  
+    .topbarImg {
+      display: none; /* Hide the profile image on even smaller screens */
+    }
+  
+    .topbarRight {
+      flex: 1;
+      justify-content: center; /* Align profile link and logout button to the center on smaller screens */
+    }
+  }
